@@ -83,7 +83,7 @@ We also enforce:
 
 ```bash
 pip install gurobipy pandas
-python solve_task2_gurobi.py
+python task2.py
 ```
 
 Outputs will appear in `Task2_Output/`:
@@ -91,8 +91,6 @@ Outputs will appear in `Task2_Output/`:
 * `new_builds.csv` — chosen candidate sites & sizes, age split, build & equipment costs
 * `expansions.csv` — expansions by tier (0–10%, 10–15%, 15–20%), age split, costs
 * `zip_summary.csv` — per-ZIP population, thresholds, supplies, and feasibility flags
-
-> If you prefer CBC/PuLP, use `solve_task2.py` (requires `pip install pulp pandas`).
 
 ### Model Sketch (What’s inside the scripts)
 
